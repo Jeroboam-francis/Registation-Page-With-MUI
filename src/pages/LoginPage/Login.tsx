@@ -1,7 +1,12 @@
-import React from "react";
+import Navigation from "../../components/Navigation/Navigation";
 
-const Login: React.FC = () => {
-  return <div>Login</div>;
+const Login = () => {
+  return (
+    <div>
+      <Navigation />
+      Login
+    </div>
+  );
 };
 
 export default Login;
