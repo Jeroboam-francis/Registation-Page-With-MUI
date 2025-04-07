@@ -9,9 +9,10 @@ const Navigation = () => {
   return (
     <AppBar position="static" color="primary">
       <Toolbar>
-        <Box display="flex" gap={10} flexGrow={1}>
-          <NavigationLink to="/" label="Home" />
+        <Box display="flex" gap={10} flexGrow={10}>
           <NavigationLink to="/registration" label="Registration" />
+          <NavigationLink to="/" label="Home" />
+
           <NavigationLink to="/login" label="Login" />
         </Box>
       </Toolbar>
