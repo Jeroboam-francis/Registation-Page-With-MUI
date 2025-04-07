@@ -5,7 +5,7 @@ const Registration = () => {
   return (
     <div>
       <Navigation />
-      Registration
+      <h1>Registration Form</h1>
       <RegistrationForm />
     </div>
   );
